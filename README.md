@@ -1,19 +1,18 @@
-# Vanilla Rag to Production-grade RAG 
+# Unstructured RAG Project
 
-## 1.Vanilla RAG 
-## 2.RAG with Binary Quantization Retrieval - 40x faster
-## 3.RAG Evaluation
-## 4.Unstructured for real world document
-## 5.CLIP model - Multimodal Transformer
-## 6.Multimodal RAG
-## 7.Knowledge Graph 
-## 8.Colbert for faster re-ranking in RAG
-## 9.Calibert
+This project implements a Retrieval-Augmented Generation (RAG) system using unstructured data and various NLP tools.
 
+## Setup
 
-## ML workflow and kubeflow pipelines
+```bash
+pip install -r requirements.txt
+python main.py
+```
 
-- Reference Link: 
-    - https://huggingface.co/learn/cookbook/en/rag_zephyr_langchain
-    - https://www.youtube.com/watch?v=JEBDfGqrAUA
-- BitsandBytes : https://medium.com/@rakeshrajpurohit/model-quantization-with-hugging-face-transformers-and-bitsandbytes-integration-b4c9983e8996
+## Description
+
+The pipeline includes:
+- Unstructured document parsing
+- Vector storage
+- Retrieval and response generation
+- RAG evaluation

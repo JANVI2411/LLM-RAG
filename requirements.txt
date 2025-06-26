@@ -1,0 +1,17 @@
+openai
+nltk
+pydantic
+pandas
+# unstructured[all-docs]
+# poppler-utils 
+pymupdf
+pillow
+langchain
+langchain-core
+langchain-openai
+langchain-community
+qdrant-client
+ragas
+datasets
+mlflow
+ipython
