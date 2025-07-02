@@ -3,7 +3,7 @@
 This project implements a Retrieval-Augmented Generation (RAG) system using unstructured and docling to parse real worl documents.
 
 ## Architecture
-![image](https://github.com/user-attachments/assets/a436d7ae-49ec-4093-be1a-8c2279dc78ea)
+![image](assets/Architecture_LLM_RAG.png)
 
 
 ## Setup
